@@ -1,0 +1,6 @@
+{
+  "name": "Небесний Щит: Симулятор ППО",
+  "description": "Тактичний симулятор протиповітряної оборони: перехоплення шахедів, крилатих ракет, балістики та дронів мобільними вогневими групами, Gepard, ПЗРК та Patriot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

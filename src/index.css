@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    background-color: #05070a;
+    color: #f1f5f9;
+  }
+}
+
+.font-hud {
+  font-family: 'Chakra Petch', 'JetBrains Mono', monospace;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* CRT Scanline & Grain overlay */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.35) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+.flir-scanlines {
+  background: linear-gradient(
+    rgba(0, 50, 20, 0) 50%, 
+    rgba(0, 20, 10, 0.45) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Custom pulse animations */
+@keyframes radar-sweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-radar {
+  animation: radar-sweep 4s linear infinite;
+}
+
+/* Custom scrollbars for military telemetry */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
