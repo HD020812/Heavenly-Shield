@@ -1,5 +1,6 @@
 # 🛰️ Nebesniy_Shit: Anti-Air Tactical Simulator
-<img width="737" height="640" alt="image" src="https://github.com/user-attachments/assets/2fdb4cfe-e024-42d2-9e87-f3b1f318454e" />
+![Uploading image.png…]()
+
 
 **Nebesniy_Shit** — це хардкорний тактичний симулятор протиповітряної оборони (ППО), розроблений на Python з використанням бібліотеки Pygame. Гравець виступає в ролі оператора оборонного комплексу, який динамічно розподіляє ресурси для захисту повітряного простору від масованих нальотів ворожих БПЛА.
 
